@@ -1,0 +1,186 @@
+
+* eESTILO GERAL*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #00ff08;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+h2.titulo{
+    color: #fff;
+    font-size: 26px;
+    text-align: center;
+}
+ 
+h2.titulo span{
+    color: #00ff08;
+}
+
+button:hover, form .btn-enviar input:hover{
+    box-shadow: 0px 0px 8px #00ff08;
+    transform: scale(1.05);
+}
+
+
+/*ESTILO DO CABECALHO */
+header{
+    padding: 40px 4%;
+}
+
+header .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+    color: #777676;
+    text-decoration: none ;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    color:#fff ;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/*ESTILO DO TOPO DO SITE*/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+
+section.topo-do-site .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fff;
+    font-size: 36px;
+    line-height: 38px
+}
+
+.topo-do-site .txt-topo-site h1 span{
+    color: #00ff08;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #fff;
+    margin: 40px 0;
+}
+
+.topo-do-site .img-topo-site img{
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+/* Estilos para a seção "Sobre meus projetos" */
+.Sobre_meus_projetos {
+    background-color: #000000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 75%;
+}
+
+.Sobre_meus_projetos h1 {
+    font-size: 26px;
+    color: #ffffff;
+}
+
+.Sobre_meus_projetos h1 span{
+    font-weight: bold;
+    color: #00ff08;
+}
+
+.Sobre_meus_projetos p {
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 10px;
+    overflow-wrap:break-word ;
+}
+
+/*imagem do projeto*/
+
+.imagem_code {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.imagem_code img{
+    width: 800px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.imagem_code p {
+    color: #fff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/*texto explicativo*/
+
+.texto_explicativo{
+   background-color: #000000;
+   color: #ffffff;
+   font-size: 18px;
+   line-height: 40px;
+   margin-bottom: 30px;
+}
+
+.texto_explicativo h2{
+    padding: 10px;
+    margin: 15px;
+}
+
+.texto_explicativo span{
+    color: #00ff08;
+}
+
+.texto_explicativo il{
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.texto_explicativo{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
